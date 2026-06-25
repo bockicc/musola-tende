@@ -1,0 +1,27 @@
+{
+  "projectName": "musola-tende",
+  "framework": "react",
+  "styling": "tailwind",
+  "routing": "tanstack-router",
+  "type": "website",
+  "language": "sr-Latn",
+  "designTokens": {
+    "colors": {
+      "base": "#0A0D10",
+      "accent": "#2DD4BF",
+      "gold": "#C9A24B"
+    },
+    "typography": {
+      "body": "Inter",
+      "headings": "Cabinet Grotesk"
+    }
+  },
+  "pages": [
+    { "path": "/", "name": "Home" },
+    { "path": "/proizvodi", "name": "Products" },
+    { "path": "/proizvodi/:slug", "name": "Product Detail" },
+    { "path": "/galerija", "name": "Gallery" },
+    { "path": "/o-nama", "name": "About" },
+    { "path": "/kontakt", "name": "Contact" }
+  ]
+}
